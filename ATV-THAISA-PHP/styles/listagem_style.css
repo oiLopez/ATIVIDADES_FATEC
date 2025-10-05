@@ -1,0 +1,26 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+
+.filtro {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+}
+
+.tabela {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+th, td {
+    border: 0.2px solid #000000; 
+    padding: 12px; 
+    text-align: center; 
+}
