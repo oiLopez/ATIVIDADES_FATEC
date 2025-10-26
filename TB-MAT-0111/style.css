@@ -1,0 +1,162 @@
+
+        /* Estilos Globais */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF2EF;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #5D688A;
+            color: #ecf0f1;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .header-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        #logoelobos {
+            width: 350px;
+            height: auto;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Navegação (Guias) */
+        nav {
+            background-color: #F7A5A5;
+            padding: 0.5rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4a6572;
+        }
+
+        /* Estilo da guia ativa */
+        nav a.active {
+            background-color: #FFDBB6;
+            color: #fff;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        h2, h3, h4 {
+            color: #2c3e50;
+        }
+
+        h2 {
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h3 {
+            margin-top: 35px;
+            color: #16a085;
+        }
+        
+        h4 {
+            color: #2980b9;
+        }
+
+        /* Caixa de Definição */
+        .definition {
+            background-color: #eaf5ff;
+            border-left: 5px solid #3498db;
+            padding: 15px 20px;
+            margin: 25px 0;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        /* Estilos para Exercícios */
+        .exercicio {
+            background: #fafafa;
+            border: 1px solid #eee;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        /* Bloco de Respostas (com <details>) */
+        details {
+            margin-top: 30px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 12px;
+            background: #f1f1f1;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        details[open] summary {
+             border-bottom: 1px solid #ddd;
+        }
+
+        .respostas {
+            padding: 15px 15px 15px 25px;
+        }
+
+        .respostas ol {
+            padding-left: 20px;
+        }
+        
+        .respostas li {
+            margin-bottom: 10px;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 30px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }

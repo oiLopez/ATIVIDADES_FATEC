@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de Matemática - Função Afim</title>
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    
+    <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class=" header-content">
+            <h1>ELOBOS - FUNÇÃO AFIM </h1>
+            <img id = "logoelobos" src="img/logoelobos.png" alt="Logo ELOBOS">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="exer.html" class="active"> Exercícios </a></li>
+            <li><a href="#">Gráfico</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="funcao-afim-content">
+            <h2>Função Afim (Função do 1º Grau)</h2>
+            <p>
+                Agora que você aprendeu sobre a função afim, vamos praticar com alguns exercícios! A função afim é uma das funções mais básicas e 
+                importantes na matemática, representando uma relação linear entre duas variáveis.
+            </p>
+
+            <h3>Uma colinha para ajudar!</h3>
+            <p>
+                Chama-se função afim, ou função polinomial do 1º grau, qualquer função $f$ de $\mathbb{R}$ em $\mathbb{R}$
+                dada por uma lei da forma:
+            </p>
+            
+            <div class="definition">
+                $f(x) = ax + b$
+            </div>
+
+            <p>Onde:</p>
+            <ul>
+                <li><strong>$a$</strong> é o <strong>coeficiente angular</strong> ou taxa de variação. Ele determina a inclinação da reta.</li>
+                <li><strong>$b$</strong> é o <strong>coeficiente linear</strong> ou termo independente. Ele indica o ponto onde a reta corta o eixo Y (intercepto Y).</li>
+            </ul>
+
+            <h3>Exemplos</h3>
+
+            <div class="exemplo">
+                <h4>Exemplo 1: Identificando os Coeficientes</h4>
+                <p>Dada a função $f(x) = 3x - 6$:</p>
+                <ul>
+                    <li>O coeficiente angular é $a = 3$.</li>
+                    <li>O coeficiente linear é $b = -6$.</li>
+                </ul>
+                <p>Como $a > 0$ (positivo), a função é <strong>crescente</strong>.</p>
+            </div>
+
+            <div class="exemplo">
+                <h4>Exemplo 2: Calculando o valor da função</h4>
+                <p>Para a função $g(x) = -2x + 8$, calcule o valor de $g(5)$:</p>
+                <p><strong>Resolução:</strong><br>
+                    $g(5) = -2 \cdot (5) + 8$<br>
+                    $g(5) = -10 + 8$<br>
+                    $g(5) = -2$
+                </p>
+            </div>
+            
+            <div class="exemplo">
+                <h4>Exemplo 3: Encontrando a Raiz da Função</h4>
+                <p>A raiz (ou zero) da função é o valor de $x$ para o qual $f(x) = 0$. Vamos encontrar a raiz de $h(x) = 4x + 12$:</p>
+                <p><strong>Resolução:</strong><br>
+                    $h(x) = 0$<br>
+                    $4x + 12 = 0$<br>
+                    $4x = -12$<br>
+                    $x = -12 / 4$<br>
+                    $x = -3$
+                </p>
+                <p>A raiz da função é $-3$. Esse é o ponto onde o gráfico corta o eixo X.</p>
+            </div>
+
+            <h3>Exercícios para treino!</h3>
+
+            <div class="exercicio">
+                <h4>Exercício 1</h4>
+                <p>Identifique o coeficiente angular ($a$) e o coeficiente linear ($b$) da função $f(x) = -5x + 10$. A função é crescente ou decrescente?</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 2</h4>
+                <p>Dada a função $g(x) = \frac{x}{2} + 3$, calcule o valor de $g(10)$.</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 3</h4>
+                <p>Qual é a raiz da função $h(x) = 7x - 21$?</p>
+            </div>
+            
+            <div class="exercicio">
+                <h4>Exercício 4</h4>
+                <p>O preço a pagar por uma corrida de táxi ($P$) inclui uma parcela fixa de R$ 6,00 (bandeirada), mais R$ 2,00 por quilômetro ($x$) rodado. Escreva a função afim que representa o preço dessa corrida.</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 5</h4>
+                <p>Considerando a função $f(x) = 2x - 5$, determine o valor de $x$ para o qual $f(x) = 7$.</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 6</h4>
+                <p>Em quais pontos o gráfico da função $g(x) = -3x + 12$ corta os eixos X (abcissas) e Y (ordenadas)?</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 7</h4>
+                <p>Determine a lei da função afim (ou seja, $f(x) = ax + b$) que passa pelo ponto $(2, 3)$ e cujo coeficiente angular $a$ é igual a 4.</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 8</h4>
+                <p>Encontre a lei da função afim $h(x)$ sabendo que $h(1) = 5$ e $h(3) = 11$.</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 9</h4>
+                <p>Uma empresa de impressão digital tem um custo fixo de R$ 500,00 por mês (aluguel, etc.) mais um custo variável de R$ 1,50 por unidade impressa. Escreva a função $C(x)$ que representa o custo mensal total para produzir $x$ impressões.</p>
+            </div>
+
+            <div class="exercicio">
+                <h4>Exercício 10</h4>
+                <p>A Locadora "Alfa" aluga um carro por R$ 80,00 fixos por dia mais R$ 1,20 por km rodado. A Locadora "Beta" cobra R$ 50,00 fixos por dia mais R$ 1,50 por km rodado. A partir de quantos quilômetros rodados ($x$) em um dia o aluguel na Locadora "Alfa" se torna mais vantajoso (ou seja, mais barato) que na "Beta"?</p>
+            </div>
+
+            <details>
+                <summary>Clique para ver as respostas</summary>
+                <div class="respostas">
+                    <ol>
+                        <li>
+                            <strong>Resposta 1:</strong><br>
+                            Coeficiente angular: $a = -5$<br>
+                            Coeficiente linear: $b = 10$<br>
+                            Como $a < 0$ (negativo), a função é <strong>decrescente</strong>.
+                        </li>
+                        <li>
+                            <strong>Resposta 2:</strong><br>
+                            $g(10) = \frac{10}{2} + 3$<br>
+                            $g(10) = 5 + 3$<br>
+                            $g(10) = 8$
+                        </li>
+                        <li>
+                            <strong>Resposta 3:</strong><br>
+                            $7x - 21 = 0$<br>
+                            $7x = 21$<br>
+                            $x = 21 / 7$<br>
+                            $x = 3$. A raiz é 3.
+                        </li>
+                        <li>
+                            <strong>Resposta 4:</strong><br>
+                            A função é $P(x) = 2x + 6$.
+                        </li>
+                        <li>
+                            <strong>Resposta 5:</strong><br>
+                            Queremos encontrar $x$ quando $f(x) = 7$.<br>
+                            $2x - 5 = 7$<br>
+                            $2x = 7 + 5$<br>
+                            $2x = 12$<br>
+                            $x = 6$
+                        </li>
+                        <li>
+                            <strong>Resposta 6:</strong><br>
+                            Corte no eixo Y (quando $x=0$):<br>
+                            $g(0) = -3(0) + 12 = 12$. Ponto: $(0, 12)$.<br>
+                            Corte no eixo X (quando $g(x)=0$):<br>
+                            $0 = -3x + 12$<br>
+                            $3x = 12$<br>
+                            $x = 4$. Ponto: $(4, 0)$.
+                        </li>
+                        <li>
+                            <strong>Resposta 7:</strong><br>
+                            A fórmula é $f(x) = ax + b$. Já sabemos que $a = 4$, então $f(x) = 4x + b$.<br>
+                            Usamos o ponto $(2, 3)$, onde $x=2$ e $f(x)=3$
+                            para achar $b$:<br>
+                            $3 = 4(2) + b$<br>
+                            $3 = 8 + b$<br>
+                            $b = 3 - 8 \implies b = -5$.<br>
+                            A função é $f(x) = 4x - 5$.
+                        </li>
+                        <li>
+                            <strong>Resposta 8:</strong><br>
+                            Temos dois pontos: $(1, 5)$ e $(3, 11)$.<br>
+                            1. Achar o coeficiente $a$ (taxa de variação):<br>
+                            $a = \frac{\Delta y}{\Delta x} = \frac{11 - 5}{3 - 1} = \frac{6}{2} = 3$.<br>
+                            2. Achar $b$ usando $h(x) = 3x + b$ e o ponto $(1, 5)$:
+                            $5 = 3(1) + b$<br>
+                            $5 = 3 + b \implies b = 2$.<br>
+                            A função é $h(x) = 3x + 2$.
+                        </li>
+                        <li>
+                            <strong>Resposta 9:</strong><br>
+                            O custo fixo é o coeficiente linear ($b$). O custo variável é o coeficiente angular ($a$).<br>
+                            $b = 500$<br>
+                            $a = 1.50$<br>
+                            A função é $C(x) = 1.50x + 500$.
+                        </li>
+                        <li>
+                            <strong>Resposta 10:</strong><br>
+                            1. Modelar as funções:<br>
+                            Alfa: $A(x) = 1.20x + 80$<br>
+                            Beta: $B(x) = 1.50x + 50$<br>
+                            2. Achar o ponto de igualdade ($A(x) = B(x)$):<br>
+                            $1.20x + 80 = 1.50x + 50$<br>
+                            $80 - 50 = 1.50x - 1.20x$<br>
+                            $30 = 0.30x$<br>
+                            $x = \frac{30}{0.30} \implies x = 100$ km.<br>
+                            Nos 100 km o preço é igual. A partir de 100 km, a Locadora "Alfa" (que tem o $a$ menor) se torna mais barata.
+                        </li>
+                    </ol>
+                </div>
+            </details>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ELOBOS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
